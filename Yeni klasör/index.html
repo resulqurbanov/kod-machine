@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function boyuk(coxluq) { 
+        let i; 
+        let max = coxluq[0]; 
+
+        for (i = 1; i < coxluq.length; i++) {
+            if (coxluq[i] > max) 
+                max = coxluq[i]; 
+        } 
+      return max; 
+} 
+    let coxluq = [23,4324,545,567,242,654,1313,6623,3,8756,345,24];
+    document.write("verilen en boyuk ededdir" + boyuk(coxluq));
+    </script>
+</body>
+</html>
